@@ -13,3 +13,5 @@ fi
 
 cmake ..
 make
+
+./result
