@@ -1,0 +1,3 @@
+/home/manfredbeutel/projects/restserver/build/CMakeFiles/rebuild_cache.dir
+/home/manfredbeutel/projects/restserver/build/CMakeFiles/result.dir
+/home/manfredbeutel/projects/restserver/build/CMakeFiles/edit_cache.dir

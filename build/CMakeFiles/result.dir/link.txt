@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/result.dir/main.cpp.o  -o result /home/manfredbeutel/projects/restbed/build/librestbed.a 
