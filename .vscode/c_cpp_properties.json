@@ -3,7 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**","/home/manfredbeutel/projects/restbed/distribution/include/"
+                "${workspaceFolder}/**","/home/manfredbeutel/projects/restbed/distribution/include/","/home/manfredbeutel/projects/ndi/NDI_SDK/include/"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

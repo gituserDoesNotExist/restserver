@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/manfredbeutel/projects/restbed/distribution/include 
+CXX_INCLUDES = -I/home/manfredbeutel/projects/restbed/distribution/include -I/home/manfredbeutel/projects/ndi/NDI_SDK/include 
 
