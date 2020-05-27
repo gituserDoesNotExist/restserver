@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/result.dir/main.cpp.o  -o result /home/manfredbeutel/projects/restbed/build/librestbed.a -lpthread 
+/usr/bin/c++    -rdynamic CMakeFiles/result.dir/main.cpp.o  -o result  -L/home/manfredbeutel/projects/ndi/NDI_SDK/lib/x86_64-linux-gnu -Wl,-rpath,/home/manfredbeutel/projects/ndi/NDI_SDK/lib/x86_64-linux-gnu -lndi /home/manfredbeutel/projects/restbed/build/librestbed.a -lpthread 
