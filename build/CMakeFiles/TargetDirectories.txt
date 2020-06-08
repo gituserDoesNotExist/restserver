@@ -1,3 +1,2 @@
-/home/manfredbeutel/projects/restserver/build/CMakeFiles/rebuild_cache.dir
-/home/manfredbeutel/projects/restserver/build/CMakeFiles/result.dir
-/home/manfredbeutel/projects/restserver/build/CMakeFiles/edit_cache.dir
+C:/Users/mbeutel/projects/repositories/restserver/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mbeutel/projects/repositories/restserver/build/CMakeFiles/ZERO_CHECK.dir

@@ -3,10 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**","/home/manfredbeutel/projects/restbed/distribution/include/","/home/manfredbeutel/projects/ndi/NDI_SDK/include/"
+                "${workspaceFolder}/**","C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\source","C:\\Programme\\NewTek\\NDI 4 SDK\\Documentation"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "C:\\Programme\\Haskell Platform\\8.6.5\\mingw\\bin\\gcc.exe",
             "cStandard": "gnu11",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "clang-x64"
