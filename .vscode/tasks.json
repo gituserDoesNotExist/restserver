@@ -6,14 +6,18 @@
 			"label": "C/C++: cl.exe build main.cpp",
 			"command": "cl.exe",
 			"args": [
-				"/c",
+				// "/c",
+				"${workspaceFolder}/main.cpp",
+				"restbed.lib",
+				"/MD",
 				"/Zi",
 				"/EHsc",
 				"/Fe:",
-				"${fileDirname}\\main.exe",
-				"${workspaceFolder}/main.cpp",
-				"/I C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\source",
-//				"/link /LIBPATH:C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\build"
+				"${workspaceFolder}\\main.exe",
+				"/I",
+				"C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\source",
+				"/link",
+				"/LIBPATH:C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\build"
 			  ],
 			"options": {
 				"cwd": "${workspaceFolder}"
