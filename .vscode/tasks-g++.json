@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe build main.cpp",
+			//"command": "echo ${workspaceFolder}",
+			"command": "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"-I",
+				"C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\source",
+				"${workspaceFolder}\\main.cpp",
+				"-L",
+				"C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\build",
+				"-l",
+				"restbed"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

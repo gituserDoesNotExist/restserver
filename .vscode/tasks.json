@@ -3,15 +3,25 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "build this shit",
+			"label": "C/C++: cl.exe build main.cpp",
+			"command": "cl.exe",
+			"args": [
+				"/c",
+				"/Zi",
+				"/EHsc",
+				"/Fe:",
+				"${fileDirname}\\main.exe",
+				"${workspaceFolder}/main.cpp",
+				"/I C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\source",
+//				"/link /LIBPATH:C:\\Users\\mbeutel\\projects\\external-dependencies\\restbed\\build"
+			  ],
 			"options": {
-				"cwd": "${workspaceRoot}"
+				"cwd": "${workspaceFolder}"
 			},
-			"command": "./build.sh",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
 		}
 	]
 }

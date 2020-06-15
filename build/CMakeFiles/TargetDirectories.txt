@@ -1,2 +1,0 @@
-C:/Users/mbeutel/projects/repositories/restserver/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/mbeutel/projects/repositories/restserver/build/CMakeFiles/ZERO_CHECK.dir
